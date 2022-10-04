@@ -1,0 +1,12 @@
+[package]
+name = "beby"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.7", features = ["wayland", "dynamic"] }
+bevy_egui = "0.13.0"
+image = "0.24.1"
+smooth-bevy-cameras = "0.3.0"
